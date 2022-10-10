@@ -35,6 +35,14 @@ img {
 p{
   line-height: 1.7em;
 }
+button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transform: translateY(3px);
+}
+a:hover{
+  text-decoration: underline;
+}
 .container{
   padding-top: 8em;
   width: 85%;
@@ -146,7 +154,10 @@ li{
 .fa-brands{
   color: #000;
   padding: 1em;
-  /* width: 100%; */
+}
+.fa-brands:hover{
+  cursor: pointer;
+  color: hsl(210, 10%, 33%);
 }
 .attribution {
   font-size: 1rem;
