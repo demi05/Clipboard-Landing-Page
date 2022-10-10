@@ -265,6 +265,7 @@ li{
   li{
     margin-bottom: 1em;
     font-size: 0.8rem;
+    gap: 1em;
   }
   .attribution{
     font-size: 0.9rem;
